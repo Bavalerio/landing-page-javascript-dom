@@ -1,2 +1,6 @@
-# landing-page-javascript-dom
-Landing page, creating and manipulate with JavaScript DOM
+### Landing Page JavaScript DOM
+
+---
+
+- Landing page
+- Creating and Manipulating with JavaScript DOM
