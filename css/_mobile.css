@@ -1,0 +1,6 @@
+@media only screen and (min-width: 560px) {
+    .sec-container {
+        max-width: 800px;
+        padding: 64px;
+    }
+}
