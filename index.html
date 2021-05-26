@@ -5,31 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulating the DOM</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header-landing-page">
+        <nav class="navbar">
             <ul></ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Landing Page</h1>
+        <header class="main-header-sec" style="border: 2px solid black;">
+            <h1>Rain Hero</h1>
         </header>
-        <section id="section1">
-            <div>
+        <section id="why-do" data-nav="Why I do" class="is-active" style="border: 2px solid black;">
+            <div class="sec-container">
+                <h1>Whath Can I do</h1>
             </div>
         </section>
-        <section id="section2">
-            <div></div>
+        <section id="why-diff" data-nav="Why I different" style="border: 2px solid black;">
+            <div class="sec-container">
+                <h1>Our Wokrs</h1>
+            </div>
         </section>
-        <section id="section3">
-            <div></div>
+        <section id="benefits" data-nav="Benefits" style="border: 2px solid black;">
+            <div class="sec-container">
+                <h1>Benefits</h1>
+            </div>
+        </section>
+        <section id="get-started" data-nav="Let's Go" style="border: 2px solid black;">
+            <div class="sec-container">
+                <h1>Let's Go</h1>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>©2021 BrayanValerio</p>
     </footer>
 

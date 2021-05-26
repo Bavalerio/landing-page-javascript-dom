@@ -1,0 +1,108 @@
+@import './_variables.css';
+
+/*#region body*/
+
+body {
+    background: var(--primary);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+
+/*#endregion body*/
+
+
+/*#region navbar*/
+
+.navbar ul {
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar .link-menu {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.navbar .link-menu:hover {
+    background: var(--third);
+    color: var(--secondary);
+    transition: ease 0.3s all;
+}
+
+
+/*#endregion navbar*/
+
+
+/*#region main*/
+
+main {
+    margin: 10vh 16px 10vh;
+}
+
+.main-header-sec {
+    min-height: 40vh;
+    padding-top: 48px;
+}
+
+section {
+    position: relative;
+    min-height: 80vh;
+}
+
+
+/*#endregion main*/
+
+
+/*#region header-landing-page */
+
+.header-landing-page {
+    background: var(--secondary);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
+/*#endregion header-landing-page */
+
+
+/*#region footer*/
+
+.footer {
+    background: var(--third);
+    padding: 3em;
+    color: var(--secondary);
+    justify-items: center;
+    text-align: end;
+}
+
+.footer p {
+    color: var(--secondary);
+}
+
+
+/*#endregion footer*/
+
+
+/*#region sec-container*/
+
+.sec-container {
+    padding: 16px;
+    text-align: left;
+}
+
+
+/*#endregion sec-container*/
